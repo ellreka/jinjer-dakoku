@@ -3,7 +3,8 @@
 ## Setup
 
 1. git clone
-2. `config.json` を作成して、以下のように記述する
+2. pnpm install
+3. `config.json` を作成して、以下のように記述する
 
 ```json
 {
