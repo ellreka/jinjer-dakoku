@@ -42,5 +42,6 @@ const config_json_1 = __importDefault(require("./config.json"));
     yield page.click("#jbtn-login-staff");
     yield page.waitForNavigation();
     yield page.click(`button[data-type='${type}']`);
+    yield page.waitForTimeout(2000);
     yield browser.close();
 }))();

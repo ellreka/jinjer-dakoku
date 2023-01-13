@@ -37,5 +37,7 @@ import config from "./config.json";
 
   await page.click(`button[data-type='${type}']`);
 
+  await page.waitForTimeout(2000);
+
   await browser.close();
 })();
